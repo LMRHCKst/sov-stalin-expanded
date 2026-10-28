@@ -1,0 +1,38 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			GER = { add_ideas = GER_sov_test_handicap }
+			SOV = {
+				set_variable = { SOV_poster_left_icon_frame = SOV_propaganda_empty_slot_index }
+				set_variable = { SOV_poster_center_icon_frame = SOV_propaganda_empty_slot_index }
+				set_variable = { SOV_poster_right_icon_frame = SOV_propaganda_empty_slot_index }
+			}
+		}
+	}
+	on_war_relation_added = {
+		effect = {
+			if = {
+				limit = {
+					OR = {
+						original_tag = SOV
+						FROM = { original_tag = SOV }
+					}
+				}
+				SOV = { clr_country_flag = SOV_third_five_year_plan_locked_flag }
+			}
+		}
+	}
+	on_monthly = {
+		effect = {
+			if = {
+				limit = {
+					original_tag = SOV
+					date > 1941.2.1
+				}
+				if = { limit = { has_idea = SOV_purge_spirit_1 } remove_ideas = SOV_purge_spirit_1 }
+				if = { limit = { has_idea = SOV_purge_spirit_2 } remove_ideas = SOV_purge_spirit_2 }
+				if = { limit = { has_idea = SOV_purge_spirit_3 } remove_ideas = SOV_purge_spirit_3 }
+			}
+		}
+	}
+}

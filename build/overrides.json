@@ -1,0 +1,138 @@
+{
+ "SOV_metro_builders": [
+  0,
+  3
+ ],
+ "SOV_second_industrialization": [
+  2,
+  2
+ ],
+ "SOV_donbass_revival": [
+  -2,
+  0
+ ],
+ "SOV_aviation_volga": [
+  2,
+  1
+ ],
+ "SOV_front_hqs": [
+  2,
+  1
+ ],
+ "SOV_deep_operation": [
+  -2,
+  1
+ ],
+ "SOV_victory_doctrine": [
+  0,
+  4
+ ],
+ "SOV_military_courts": [
+  0,
+  2
+ ],
+ "SOV_artillery_reserve": [
+  4,
+  0
+ ],
+ "SOV_moscow_air_defense": [
+  0,
+  2
+ ],
+ "SOV_stalin_falcons": [
+  2,
+  5
+ ],
+ "SOV_nkvd_special_units": [
+  0,
+  1
+ ],
+ "SOV_intel_school": [
+  0,
+  1
+ ],
+ "SOV_radio_intercept": [
+  6,
+  2
+ ],
+ "SOV_agent_networks": [
+  0,
+  1
+ ],
+ "SOV_sabotage_schools": [
+  0,
+  2
+ ],
+ "SOV_counterintel": [
+  -2,
+  0
+ ],
+ "SOV_radar_network": [
+  0,
+  5
+ ],
+ "SOV_postwar_restoration": [
+  2,
+  1
+ ],
+ "SOV_ration_cards_end": [
+  0,
+  4
+ ],
+ "SOV_volga_don": [
+  -2,
+  1
+ ],
+ "SOV_kuibyshev_hydro": [
+  -2,
+  0
+ ],
+ "SOV_jet_aviation": [
+  0,
+  5
+ ],
+ "SOV_stalin_prize_second": [
+  4,
+  2
+ ],
+ "SOV_michurin_biology": [
+  4,
+  0
+ ],
+ "SOV_leningrad_affair": [
+  4,
+  2
+ ],
+ "SOV_cosmopolitan_campaign": [
+  4,
+  0
+ ],
+ "SOV_short_course": [
+  0,
+  5
+ ],
+ "SOV_atheist_campaign_2": [
+  6,
+  0
+ ],
+ "SOV_friendship_of_peoples": [
+  0,
+  3
+ ],
+ "SOV_stalin_skyscrapers": [
+  0,
+  5
+ ],
+ "SOV_history_textbook": [
+  0,
+  2
+ ],
+ "SOV_housing_program": [
+  0,
+  4
+ ],
+ "SOV_soviet_cinema": [
+  0,
+  8
+ ]
+}

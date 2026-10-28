@@ -1,0 +1,96 @@
+SOV_ind_dm = {
+	enable = { always = yes }
+	icon = GFX_idea_SOV_fourth_five_year_plan
+
+	air_attack_factor = SOV_ind_air_atk
+	army_armor_attack_factor = SOV_ind_arm_atk
+	production_speed_arms_factory_factor = SOV_ind_arms
+	production_speed_buildings_factor = SOV_ind_build
+	production_factory_max_efficiency_factor = SOV_ind_cap
+	consumer_goods_factor = SOV_ind_cg
+	production_speed_industrial_complex_factor = SOV_ind_civil
+	compliance_gain = SOV_ind_comp
+	conscription = SOV_ind_cons
+	production_factory_efficiency_gain_factor = SOV_ind_gain
+	local_resources_factor = SOV_ind_loc
+	political_power_factor = SOV_ind_pp
+	industrial_capacity_factory = SOV_ind_prod
+	repair_speed_factor = SOV_ind_rep
+	research_speed_factor = SOV_ind_res
+	global_building_slots_factor = SOV_ind_slots
+	army_speed_factor = SOV_ind_spd
+	stability_factor = SOV_ind_stab
+	war_support_factor = SOV_ind_ws
+	political_power_factor = -0.02
+}
+
+SOV_mil_dm = {
+	enable = { always = yes }
+	icon = GFX_idea_SOV_ground_based_training
+
+	air_attack_factor = SOV_mil_air_atk
+	air_defence_factor = SOV_mil_air_def
+	army_armor_attack_factor = SOV_mil_arm_atk
+	army_artillery_attack_factor = SOV_mil_art_atk
+	experience_gain_army_factor = SOV_mil_axp
+	breakthrough_factor = SOV_mil_brk
+	compliance_gain = SOV_mil_comp
+	command_power_gain = SOV_mil_cpg
+	army_defence_factor = SOV_mil_def
+	land_doctrine_cost_factor = SOV_mil_doc
+	experience_gain_air_factor = SOV_mil_fxp
+	army_intel_to_others = SOV_mil_iarm
+	max_command_power = SOV_mil_mcp
+	army_morale_factor = SOV_mil_mor
+	army_org_factor = SOV_mil_org
+	planning_speed = SOV_mil_plan
+	political_power_factor = SOV_mil_pp
+	research_speed_factor = SOV_mil_res
+	special_forces_cap = SOV_mil_sf
+	army_speed_factor = SOV_mil_spd
+	stability_factor = SOV_mil_stab
+	war_support_factor = SOV_mil_ws
+	research_speed_factor = -0.02
+}
+
+SOV_ia_dm = {
+	enable = { always = yes }
+	icon = GFX_idea_SOV_factionalism_modifier
+
+	political_advisor_cost_factor = SOV_ia_adv
+	air_attack_factor = SOV_ia_air_atk
+	production_speed_buildings_factor = SOV_ia_build
+	consumer_goods_factor = SOV_ia_cg
+	intelligence_agency_defense = SOV_ia_cint
+	compliance_gain = SOV_ia_comp
+	conscription = SOV_ia_cons
+	army_defence_factor = SOV_ia_def
+	communism_drift = SOV_ia_drift
+	local_resources_factor = SOV_ia_loc
+	political_power_factor = SOV_ia_pp
+	industrial_capacity_factory = SOV_ia_prod
+	research_speed_factor = SOV_ia_res
+	stability_factor = SOV_ia_stab
+	max_surrender_limit_offset = SOV_ia_surr
+	war_support_factor = SOV_ia_ws
+	army_org_factor = -0.02
+}
+
+SOV_int_dm = {
+	enable = { always = yes }
+	icon = GFX_idea_SOV_conspiracy_in_the_academy_army
+
+	air_defence_factor = SOV_int_air_def
+	intelligence_agency_defense = SOV_int_cint
+	compliance_gain = SOV_int_comp
+	crypto_strength = SOV_int_cry
+	decryption_power = SOV_int_dec
+	army_intel_to_others = SOV_int_iarm
+	civilian_intel_to_others = SOV_int_iciv
+	intel_network_gain_factor = SOV_int_inet
+	political_power_factor = SOV_int_pp
+	stability_factor = SOV_int_stab
+	war_support_factor = SOV_int_ws
+	political_power_factor = -0.01
+}
+

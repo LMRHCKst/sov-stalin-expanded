@@ -1,0 +1,65 @@
+ideas = {
+	country = {
+
+		SOV_purge_spirit_1 = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = SOV_purged_junior_army_officers
+			modifier = {
+				army_attack_factor = -0.05
+				army_defence_factor = -0.05
+				army_org_factor = -0.05
+				experience_gain_army_factor = -0.10
+				political_power_factor = 0.05
+				stability_factor = 0.03
+			}
+		}
+
+		SOV_purge_spirit_2 = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = SOV_purged_junior_army_officers
+			modifier = {
+				army_attack_factor = -0.10
+				army_defence_factor = -0.10
+				army_org_factor = -0.10
+				experience_gain_army_factor = -0.15
+				land_doctrine_cost_factor = 0.15
+				army_speed_factor = -0.05
+				political_power_factor = 0.10
+				stability_factor = 0.05
+			}
+		}
+
+		SOV_purge_spirit_3 = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = SOV_purged_junior_army_officers
+			modifier = {
+				army_attack_factor = -0.20
+				army_defence_factor = -0.20
+				army_org_factor = -0.20
+				experience_gain_army_factor = -0.25
+				land_doctrine_cost_factor = 0.30
+				army_speed_factor = -0.10
+				planning_speed = -0.10
+				political_power_factor = 0.15
+				stability_factor = 0.05
+				political_advisor_cost_factor = 0.15
+			}
+		}
+		GER_sov_test_handicap = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = SOV_conspiracy_in_the_academy_army
+			modifier = {
+				army_attack_factor = -0.20
+				army_defence_factor = -0.20
+				army_org_factor = -0.20
+				industrial_capacity_factory = -0.15
+				production_speed_buildings_factor = -0.15
+				war_support_factor = -0.10
+			}
+		}
+	}
+}
