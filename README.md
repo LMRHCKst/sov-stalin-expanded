@@ -8,7 +8,7 @@
 
 ## Авторы
 
-- **Идея и постановка задач** — [stffbn4k](https://github.com/stffbn4k)
+- **Идея и постановка задач** — stffbn4k ([GitHub](https://github.com/LMRHCKst))
 - **Код, сборка, локализация** — Диси
 
 ## Установка
