@@ -53,12 +53,15 @@ ideas = {
 			removal_cost = -1
 			picture = SOV_conspiracy_in_the_academy_army
 			modifier = {
-				army_attack_factor = -0.20
-				army_defence_factor = -0.20
-				army_org_factor = -0.20
-				industrial_capacity_factory = -0.15
-				production_speed_buildings_factor = -0.15
-				war_support_factor = -0.10
+				army_attack_factor = -0.40
+				army_defence_factor = -0.40
+				army_org_factor = -0.40
+				army_speed_factor = -0.25
+				industrial_capacity_factory = -0.30
+				production_speed_buildings_factor = -0.30
+				production_factory_max_efficiency_factor = -0.25
+				war_support_factor = -0.30
+				stability_factor = -0.15
 			}
 		}
 	}

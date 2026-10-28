@@ -1,7 +1,6 @@
 on_actions = {
 	on_startup = {
 		effect = {
-			GER = { add_ideas = GER_sov_test_handicap }
 			SOV = {
 				set_variable = { SOV_poster_left_icon_frame = SOV_propaganda_empty_slot_index }
 				set_variable = { SOV_poster_center_icon_frame = SOV_propaganda_empty_slot_index }
@@ -11,6 +10,13 @@ on_actions = {
 	}
 	on_war_relation_added = {
 		effect = {
+			if = {
+				limit = {
+					original_tag = GER
+					FROM = { original_tag = SOV }
+				}
+				GER = { add_ideas = GER_sov_test_handicap }
+			}
 			if = {
 				limit = {
 					OR = {
