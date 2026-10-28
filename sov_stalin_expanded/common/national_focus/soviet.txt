@@ -7009,17 +7009,6 @@ focus_tree = {
 		icon = GFX_focus_SOV_the_path_of_marxism_leninism
 		x = 16
 		y = 0
-		offset = {
-			x = -8
-			y = 0
-			trigger = {
-				has_game_rule = {
-					rule = obsolete_focus_branches_visibility
-					option = HIDE
-				}
-				has_completed_focus = SOV_beaten_but_not_defeated
-			}
-		}
 		relative_position_id = SOV_strengthen_the_mobilization_plan
 		cost = 5
 
@@ -7066,18 +7055,6 @@ focus_tree = {
 		prerequisite = { focus = SOV_the_path_of_marxism_leninism }
 		x = -8
 		y = 1
-		offset = {
-			x = 8
-			y = 1
-			trigger = {
-				has_game_rule = {
-					rule = obsolete_focus_branches_visibility
-					option = HIDE
-				}
-				has_completed_focus = SOV_beaten_but_not_defeated
-				NOT = { has_completed_focus = SOV_the_hands_do }
-			}
-		}
 		relative_position_id = SOV_the_path_of_marxism_leninism
 		cost = 5
 
@@ -8498,20 +8475,6 @@ focus_tree = {
 		mutually_exclusive = { focus = SOV_the_right_opposition focus = SOV_the_centre }
 		x = 2
 		y = 1
-		offset = {
-			x = -7
-			y = 0
-			trigger = {
-				OR = {
-					has_completed_focus = SOV_left_opposition_coup 
-					has_completed_focus = SOV_coup_detat
-				}
-				has_game_rule = {
-					rule = obsolete_focus_branches_visibility
-					option = HIDE
-				}
-			}
-		}
 		relative_position_id = SOV_the_path_of_marxism_leninism
 		cost = 5
 
@@ -9513,13 +9476,6 @@ focus_tree = {
 		y = 1
 		relative_position_id = SOV_all_power_to_the_soviets
 		mutually_exclusive = { focus = SOV_strengthen_the_trade_unions }
-		offset = {
-			x = -1
-			y = 0
-			trigger = {
-				NOT = { has_dlc = "No Step Back"}
-			}
-		}
 		
 		cost = 10
 
@@ -9975,13 +9931,6 @@ focus_tree = {
 		mutually_exclusive = { focus = SOV_covert_support_for_spanish_poum }
 		x = -1
 		y = 2
-		offset = {
-			x = 1
-			y = -1 
-			trigger = {
-				NOT = { has_dlc = "La Resistance" }
-			}
-		}
 		relative_position_id = SOV_reverse_the_collectivization_process
 		cost = 5
 		available = {
@@ -11513,13 +11462,6 @@ focus_tree = {
 		prerequisite = { focus = SOV_all_power_to_the_soviets focus = SOV_incorporate_local_organizations }
 		x = 6
 		y = 1
-		offset = {
-			x = -5
-			y = 0
-			trigger = {
-				NOT = { has_dlc = "No Step Back" }
-			}
-		}
 		relative_position_id = SOV_all_power_to_the_soviets
 		mutually_exclusive = { focus = SOV_regional_development }
 		cost = 10
@@ -11611,73 +11553,6 @@ focus_tree = {
 		prerequisite = { focus = SOV_the_path_of_marxism_leninism }
 		x = 24
 		y = 1
-		offset = {
-			x = -7
-			y = 0
-			trigger = { #Basic offset to compensate for missing Bukharinist branch
-				NOT = { has_dlc = "No Step Back" }
-			}
-		}
-		offset = {
-			x = -19
-			y = 0
-			trigger = { #Trotskyist branch hides
-				NOT = { has_dlc = "No Step Back" }
-				has_completed_focus = SOV_the_centre 
-				has_game_rule = {
-					rule = obsolete_focus_branches_visibility
-					option = HIDE
-				}
-			}
-		}
-		offset = {
-			x = -7
-			y = 0
-			trigger = { # Stalinist branch hides
-				NOT = { has_dlc = "No Step Back" }
-				AND = {
-					has_completed_focus = SOV_left_opposition_coup
-					has_completed_focus = SOV_the_left_opposition
-				}
-				has_game_rule = {
-					rule = obsolete_focus_branches_visibility
-					option = HIDE
-				}
-			}
-		}
-		offset = {
-			x = -26
-			y = 0
-			trigger = {
-				has_dlc = "No Step Back"
-				has_completed_focus = SOV_the_centre
-				has_game_rule = {
-					rule = obsolete_focus_branches_visibility
-					option = HIDE
-				}
-			}
-		}
-		offset = {
-			x = -7
-			y = 0
-			trigger = {
-				has_dlc = "No Step Back"
-				OR = {
-					AND = {
-						has_completed_focus = SOV_the_left_opposition
-						has_completed_focus = SOV_left_opposition_coup
-					}
-					AND = {
-						has_completed_focus = SOV_the_right_opposition
-						has_completed_focus = SOV_coup_detat
-					}
-				}
-				has_game_rule = {
-					rule = obsolete_focus_branches_visibility
-					option = HIDE
-				}
-			}
-		}
 
 		relative_position_id = SOV_the_path_of_marxism_leninism
 		cost = 5
@@ -15784,28 +15659,6 @@ ai_will_do = {
 		x = 61
 		y = 0
 		relative_position_id = SOV_the_path_of_marxism_leninism
-		offset = {
-			x = -44
-			y = 0
-			trigger = { #All commie branches hide except for Stalinist
-				has_game_rule = {
-					rule = obsolete_focus_branches_visibility
-					option = HIDE
-				}
-				has_completed_focus = SOV_beaten_but_not_defeated
-			}
-		}
-		offset = {
-			x = -10
-			y = 0
-			trigger = {
-				has_game_rule = {
-					rule = obsolete_focus_branches_visibility
-					option = HIDE
-				}
-				has_completed_focus = SOV_the_hands_do #Stalinist branch hides
-			}
-		}
 		allow_branch = { 
 			has_dlc = "No Step Back" 
 			if = {
